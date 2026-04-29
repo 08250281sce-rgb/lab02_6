@@ -43,6 +43,9 @@ for name in student:
     else:
         performance = "Poor"
     
+    if score == 0:
+        print("WARNING! Your score is 0.")
+    
     if score >= 2:
         certificate = "Eligible for Certificate."
     else:
